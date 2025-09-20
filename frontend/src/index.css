@@ -1,0 +1,88 @@
+/* src/index.css */
+
+/* Reset and global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f6fa;
+  color: #2d3436;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0984e3;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #2d3436;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  padding: 5px 15px;
+  background-color: #0984e3;
+  color: white;
+}
+button:hover {
+  background-color: #74b9ff;
+}
+
+/* Inputs */
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+input:focus {
+  border-color: #0984e3;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: background 0.2s ease;
+}
+th {
+  background-color: #f5f5f5;
+  text-align: left;
+}
+tr:hover td {
+  background-color: #f1f2f6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0984e3;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

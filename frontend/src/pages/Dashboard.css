@@ -1,0 +1,48 @@
+.dashboard {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.date-filter {
+  margin-bottom: 20px;
+}
+
+.date-filter input {
+  margin: 0 10px;
+  padding: 5px 8px;
+}
+
+.date-filter button {
+  padding: 5px 15px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.date-filter button:hover {
+  background-color: #74b9ff;
+}
+
+.metrics-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.top-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.top-lists > div {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
